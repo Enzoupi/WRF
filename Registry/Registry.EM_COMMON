@@ -1703,7 +1703,7 @@ state    real  ALBBCK           ij      misc        1         -     i0124rh   "A
 state    real  EMBCK            ij      misc        1         -      r        "EMBCK"                 "BACKGROUND EMISSIVITY"         ""
 state    real  EMISS            ij      misc        1         -      rh       "EMISS"                 "SURFACE EMISSIVITY"         "" 
 state    real  SNOTIME          ij      misc        1         -      r        "SNOTIME"               "SNOTIME"         "" 
-state    real  NOAHRES          ij      misc        1         -      h        "NOAHRES"               "RESIDUAL OF THE NOAH SURFACE ENERGY BUDGET" "W m{-2}"
+state    real  NOAHRES          ij      misc        1         -      rh        "NOAHRES"               "RESIDUAL OF THE NOAH SURFACE ENERGY BUDGET" "W m{-2}"
 state    real  CLDEFI           ij      misc        1         -      r        "CLDEFI"                "precipitation efficiency in BMJ SCHEME"    ""      
 state integer  STEPRA          -        misc        1         -      r        "STEPRA"                "NUMBER OF FUNDAMENTAL TIMESTEPS BETWEEN RADIATION CALLS"        ""
                                                 
